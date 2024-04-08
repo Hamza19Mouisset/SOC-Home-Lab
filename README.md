@@ -12,4 +12,15 @@ I built the lab on a DELL Latitude 5520 laptop. It had the following configurati
 * Intel Core I5-1135G7 processor
 * 16 GB of memory
 * 512 GB NNMe
+* Windows 10 Professional
+
+### Downloading the Hypervisor
+
+For this I used VMware Workstation.
+
+[Link to Download](https://www.vmware.com/content/vmware/vmware-published-sites/us/products/workstation-pro/workstation-pro-evaluation.html.html)
+
+You can alternatively use [VirtualBox](https://www.virtualbox.org/wiki/Downloads)
+
+Or Enable the built-in Windows Hypervisor which is [Hyper-V](https://techcommunity.microsoft.com/t5/itops-talk-blog/step-by-step-enabling-hyper-v-for-use-on-windows-10/ba-p/267945#:~:text=1%20Ensure%20that%20hardware%20virtualization%20support%20is%20turned,taskbar%2C%20type%20Hyper-V%20Manager%20and...%20.%20See%20More.)
 
