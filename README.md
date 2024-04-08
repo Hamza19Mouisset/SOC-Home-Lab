@@ -28,5 +28,32 @@ Or Enable the built-in Windows Hypervisor which is [Hyper-V](https://techcommuni
 
 You can download pfsense [here](https://www.pfsense.org/download/)
 
+Here is my pfsense configuration
+
 ![image](https://github.com/Hamza19Mouisset/SOC-Home-Lab/assets/117672234/c49c62a7-3f8e-4a43-910d-675c86ba7642)
+
+I added 4 Network Adapters:
+
+* NAT interface for Internet connection
+* VMnet3 for kali linux machine
+* VMnet4 for the Victim Network
+* VMnet5 for Splunk
+
+We will then need to assign IP addresses to the interfaces:
+
+![image](https://github.com/Hamza19Mouisset/SOC-Home-Lab/assets/117672234/eac687dc-a239-4a98-942a-e5590468d749)
+
+Finally, we will head to teh Pfsense admin interface to configure the firewall rules.
+
+![image](https://github.com/Hamza19Mouisset/SOC-Home-Lab/assets/117672234/12c1e2bd-df64-4de0-94b0-d31a273ae3dc)
+
+### Victim Network
+
+For this part, I used Windows Server 2022 and WIndows 10 Enterprise machines.
+
+I followed the configuration steps provided by the Cyber Mentor. [Here you can find the instructions](https://www.youtube.com/watch?v=VXxH4n684HE&t=6517s&pp=ygUbYWN0aXZlIGRpcmVjdG9yeSBwZW50ZXN0aW5n)
+
+![image](https://github.com/Hamza19Mouisset/SOC-Home-Lab/assets/117672234/d8bc78ae-1d29-436a-a3d9-b3c2ae9b9ffd)
+
+
 
