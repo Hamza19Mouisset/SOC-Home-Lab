@@ -47,6 +47,18 @@ Finally, we will head to teh Pfsense admin interface to configure the firewall r
 
 ![image](https://github.com/Hamza19Mouisset/SOC-Home-Lab/assets/117672234/12c1e2bd-df64-4de0-94b0-d31a273ae3dc)
 
+### Snort IDS
+
+In order to optimize my hardware ressources usage, I used Snort as a package on Pfsense.
+
+[Here is how to cnnfigure it](https://www.youtube.com/watch?v=12u_chrgIKI)
+
+![image](https://github.com/Hamza19Mouisset/SOC-Home-Lab/assets/117672234/f5e65b64-1518-4674-a2d6-b674f1eecfd8)
+
+![image](https://github.com/Hamza19Mouisset/SOC-Home-Lab/assets/117672234/9310a42c-2f7c-47b7-91a0-4c60037c28fc)
+
+
+
 ### Victim Network
 
 For this part, I used Windows Server 2022 and WIndows 10 Enterprise machines.
@@ -54,6 +66,45 @@ For this part, I used Windows Server 2022 and WIndows 10 Enterprise machines.
 I followed the configuration steps provided by the Cyber Mentor. [Here you can find the instructions](https://www.youtube.com/watch?v=VXxH4n684HE&t=6517s&pp=ygUbYWN0aXZlIGRpcmVjdG9yeSBwZW50ZXN0aW5n)
 
 ![image](https://github.com/Hamza19Mouisset/SOC-Home-Lab/assets/117672234/d8bc78ae-1d29-436a-a3d9-b3c2ae9b9ffd)
+
+I added 2 users.
+
+Mary Yan
+
+![Marie](https://github.com/Hamza19Mouisset/SOC-Home-Lab/assets/117672234/9d832642-f476-4e9d-b504-73ffae46d3c0)
+
+John David
+
+![jdavid](https://github.com/Hamza19Mouisset/SOC-Home-Lab/assets/117672234/710486cb-daf2-4c76-aa47-943561b770c6)
+
+Then I added a service account and configure it for kerberoasting.
+
+![kerb](https://github.com/Hamza19Mouisset/SOC-Home-Lab/assets/117672234/b3184cde-e721-4421-aa94-a9d1c5d7b7a1)
+
+![kerb2](https://github.com/Hamza19Mouisset/SOC-Home-Lab/assets/117672234/c8e09c9c-b3d3-492a-8df7-58b979ab0bae)
+
+### Splunk
+
+I deployed Splunk on an Ubuntu Server Machine.
+
+![image](https://github.com/Hamza19Mouisset/SOC-Home-Lab/assets/117672234/954c7b97-0ff8-48c9-ab4e-e8152919389c)
+
+Upon successful installation. You will be able to access the Splunk web interface for configuration.
+
+![image](https://github.com/Hamza19Mouisset/SOC-Home-Lab/assets/117672234/881ab150-0d02-4e3f-96bf-b2ff86927a59)
+
+[Here are the steps I followed for that](https://www.youtube.com/watch?v=yP_PFRy-pdA&t=882s&pp=ugMICgJmchABGAHKBSJzcGx1bmsgdW5pdmVyc2FsIGZvcndhcmRlciB3aW5kb3dz)
+
+Finally, if everything was well configured, you will see the logs in Splunk.
+
+![logs](https://github.com/Hamza19Mouisset/SOC-Home-Lab/assets/117672234/d8a948fc-7ff3-4f2f-bd78-1717d485dfbb)
+
+
+
+
+
+
+
 
 
 
