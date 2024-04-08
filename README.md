@@ -24,3 +24,9 @@ You can alternatively use [VirtualBox](https://www.virtualbox.org/wiki/Downloads
 
 Or Enable the built-in Windows Hypervisor which is [Hyper-V](https://techcommunity.microsoft.com/t5/itops-talk-blog/step-by-step-enabling-hyper-v-for-use-on-windows-10/ba-p/267945#:~:text=1%20Ensure%20that%20hardware%20virtualization%20support%20is%20turned,taskbar%2C%20type%20Hyper-V%20Manager%20and...%20.%20See%20More.)
 
+### Downloading and configuring the firewall 
+
+You can download pfsense [here](https://www.pfsense.org/download/)
+
+![image](https://github.com/Hamza19Mouisset/SOC-Home-Lab/assets/117672234/c49c62a7-3f8e-4a43-910d-675c86ba7642)
+
